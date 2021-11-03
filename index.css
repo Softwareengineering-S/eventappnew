@@ -1,0 +1,138 @@
+
+.rounded{
+    margin-top: 50px ;
+    object-fit: cover;
+}
+
+.black-box{
+    margin: 50px 0px 30px 140px;
+    padding: 20px;
+    width: 350px;
+    height: 120px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+
+}
+.text-secondary{
+    margin-top: 50px;
+}
+section{
+    height: 100vh;
+    background: #000;
+}
+video{
+    object-fit: cover;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color: #ddd;
+    font-size: 5em;
+    font-family: sans-serif;
+    letter-spacing: 0.2em;
+
+}
+h1 span{
+    opacity: 0;
+    display: inline-block;
+    animation: animate 1s linear forwards;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0);
+    }
+}
+h1 span:nth-child(1){
+    animation-delay: 1s;
+}
+h1 span:nth-child(2){
+    animation-delay: 2s;
+}
+h1 span:nth-child(3){
+    animation-delay: 2.5s;
+}
+h1 span:nth-child(4){
+    animation-delay: 2.75s;
+}
+h1 span:nth-child(5){
+    animation-delay: 3.5s;
+}
+h1 span:nth-child(6){
+    animation-delay: 3.75s;
+}
+h1 span:nth-child(7){
+    animation-delay: 4s;
+}
+h1 span:nth-child(8){
+    animation-delay: 4.5s;
+}
+
+h6, h2, p {
+    margin-left: 140px;
+}
+
+
+.submit-btn{
+    margin-top: 10px;
+    color: white;
+    height: 50px;
+    width: 610px;
+    background-color: rgb(130,47,188);
+    border-radius: 2px;
+}
+.submit-btn:hover{
+    background-color: darkmagenta;
+}
+.btn-sm{
+
+    background-color: rgb(130,47,188);
+}
+.btn-sm:hover{
+    background-color: darkmagenta;
+}
+.email{
+    margin-top: 10px;
+    background-color: #F3F1F5;
+    height: 50px;
+    width: 610px;
+    border-radius: 2px;
+}
+.time{
+    margin: 5px;
+    background-color: #F3F1F5;
+    height: 50px;
+    width: 200px;
+    border-radius: 2px;
+}
+.date{
+    margin: 5px;
+    background-color: #F3F1F5;
+    height: 50px;
+    width: 200px;
+    border-radius: 2px;
+}
+.number {
+    margin: 5px;
+    background-color: #F3F1F5;
+    height: 50px;
+    width: 200px;
+    border-radius: 2px;
+}
+
+
+
+
+
